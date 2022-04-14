@@ -157,6 +157,10 @@ footer ul {
   gap: 40px;
 }
 
+footer li {
+  transition: all 0.3s ease-in-out;
+}
+
 footer li:hover {
   cursor: pointer;
   transform: translateY(-15px);
