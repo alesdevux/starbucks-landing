@@ -123,6 +123,10 @@ h2 span {
   justify-content: flex-end;
 }
 
+.content-img img {
+  max-height: 580px;
+}
+
 aside {
   position: absolute;
   right: 10px;
