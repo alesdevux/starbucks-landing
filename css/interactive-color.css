@@ -1,0 +1,20 @@
+:root {
+  --black: #333;
+  --green: #017143;
+  --white: #fff;
+  --orange: #eb7495;
+  --pink: #d752b1;
+  --dynamic-color: var(--green);
+}
+
+[data-color="green"] {
+  --dynamic-color: var(--green);
+}
+
+[data-color="orange"] {
+  --dynamic-color: var(--orange);
+}
+
+[data-color="pink"] {
+  --dynamic-color: var(--pink);
+}
